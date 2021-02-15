@@ -1,5 +1,5 @@
 {
-    "name": "previewtechs/cpanel-whm-api",
+    "name": "shafi005/cpanel-whm-api",
     "description": "Manage WHM and cPanel servers with PHP",
     "type": "library",
     "license": "MIT",
@@ -7,10 +7,14 @@
         {
             "name": "Shaharia Azam",
             "email": "shaharia.azam@gmail.com"
+        },
+        {
+            "name": "Shafi Muhammad",
+            "email": "i.shafi.muhammad@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.2",
         "ext-curl": "*",
         "guzzlehttp/psr7": "^1.4",
         "php-http/client-implementation": "^1.0",
@@ -28,7 +32,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^0.9.9",
-        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit": "~9.5",
         "php-http/mock-client": "^1.1",
         "squizlabs/php_codesniffer": "^3.3"
     },
